@@ -1,0 +1,79 @@
+section .content {
+	display: none;
+}
+
+header .content {
+	display: none;
+}
+
+.page {
+	border: 1.5px solid blue;
+	width: 30%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+#google {
+	width: 250px;
+	height: auto;
+	margin-left: 0px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+form input[type="text"] {
+	width: 200px;
+}
+
+form input[type="password"] {
+	width: 125px;
+}
+
+form input[type="range"] {
+	padding-top: 10px;
+	width: 150px;
+}
+
+#check {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+
+form input[type="date"] {
+	margin-top: 10px;
+	width: 125px;
+}
+
+form input[type="button"] {
+	margin-top: 10px;
+	width: 35px;
+}
+
+#Volume {
+	display: flex;
+	gap: 125px;
+	margin-top: -20px;
+}
+
+#Choix {
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#espace_dispo {
+	width: 50%;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
+
+#espace_dispo {
+	height: 10px;
+	background-color: #4caf50;
+	border-radius: 5px;
+}

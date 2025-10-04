@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Titre de la page</title>
+		<!-- Lien vers le fichier CSS externe -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="page">
+			<!-- Contenu de la page -->
+			<header>
+				<h1>Lien et images</h1>
+				<div class="content">
+					<a id="wiki">La page principale de Wikipédia</a>
+					<img id="google" src="google.jpeg" alt="Logo Google" />
+					<hr />
+				</div>
+			</header>
+			<main>
+				<section>
+					<h1>Des éléments !</h1>
+					<div class="content">
+						<form>
+							<input
+								type="text"
+								placeholder="Premier pas avec JavaScript"
+								name="JS"
+								id="JS"
+							/>
+							<div id="Choix">
+								<input type="radio" id="c1" name="choix" value="1" /><span
+									>Choix N°1</span
+								>
+								<input
+									type="radio"
+									id="c2"
+									name="choix"
+									value="2"
+									checked
+								/><span>Choix N°2</span>
+								<input type="radio" id="c3" name="choix" value="3" /><span
+									>Choix N°3</span
+								>
+							</div>
+							<input type="password" />
+							<input type="range" />
+							<div id="Volume">
+								<p>0</p>
+								<p id="volume_label">Volume</p>
+							</div>
+							<div id="check">
+								<input type="checkbox" id="checkbox" />
+								<label for="checkbox">Une case à cocher</label>
+							</div>
+							<input type="date" id="dateInput" />
+							<input id="ok_btn" type="button" title="OK" value="OK" />
+						</form>
+						<hr />
+					</div>
+				</section>
+				<section>
+					<h1>Barres de progressions :</h1>
+					<div class="content">
+						<label for="file">Téléchargement en cours : </label>
+						<progress id="file" value="0" max="100"></progress>
+						<br />
+						<label for="espace_dispo">Espace disponible :</label>
+						<meter id="espace_dispo" value="0"></meter>
+					</div>
+				</section>
+			</main>
+
+			<footer></footer>
+
+			<!-- Lien vers le fichier JavaScript externe -->
+			<script src="script.js"></script>
+		</div>
+	</body>
+</html>
