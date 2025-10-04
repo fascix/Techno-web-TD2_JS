@@ -3,25 +3,25 @@
 Compte Rendu + code du TD/TP 2 Javascript (Conversion de devises + Formulaire) 
 
 
-Organisation : 
-
-<FileTree>
+## Arborescence
+```
 /currency
-  index.html
-  style.css
-  script.js
+├── index.html
+├── style.css
+└── script.js
 
 /form
-  index.html
-  style.css
-  script.js
+├── index.html
+├── style.css
+└── script.js
+
 google.jpeg
 
 /docs
-  divers documents du TD/TP
+└── divers documents du TD/TP
 
 /Captures d’écrans
-  diverses captures d’écrans présentes dans ce Compte Rendu
+└── diverses captures d’écrans présentes dans ce Compte Rendu
 
 README.md
-</FileTree>
+```
